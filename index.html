@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<body>
+    <h1>Olá mundo!!</h1>
+    <hr>
+    <p>
+        Primeiro parágrafo
+    </p>
+    <p>
+        quebra de linha<br> aqui
+        <!--Comentário-->
+    </p>
+    
+    <hr>
+    <h1>Símbolos especiais</h1>
+    <p> 
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &delta;
+        &Delta;
+        &uparrow;
+        &uarr;
+    </p>
+    <p>Emoji:
+        <!--https://emojipedia.org/-->
+        &#x1F44D
+        &#x1F913
+    </p>
+
+    <hr>
+    <h1>Imagen no PC</h1>
+    <img src="imagens/html5.png" alt="logo html"/>
+
+    <h1>Imagem externa:</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="logo css">
+
+    <hr>
+    <h1>Formatações</h1>
+    <p>Exemplo de <b>negrito</b> com tag b (não use mais).</p>
+    <p>Exemplo de <strong>negrito</strong> com tag strong.</p>
+    <p>Exemplo de <i>italico</i> com a tag i (não use mais).</p>
+    <p>Exemplo de <em>italico</em> com a tag em.</p>
+    <p>Exemplo de texto <mark>marcado</mark> com a tag mark.</p>
+    <p>Exemplo de texto <u>sublinhado</u> com a tag u (não use mais)</p>
+    <p>Exemplo de texto <ins>sublinhado</ins> com a tag ins</p>
+
+    <hr>
+    <h1>Código</h1>
+    <p>O comando <code>document.getElementById("teste")</code> é do javascript</p>
+    <p>Exemplo de código em Python:</p>
+    <pre> 
+        <code>
+            num = int( input("Digite um número: ") )
+            if num % 2 == 0:
+                print("par")
+            else:
+                print("impar")
+        </code>
+    </pre>
+
+    <hr>
+    <h1>Citações</h1>
+    <p><q>O computador é que nem um burro, só que muito rápido</q></p>
+
+    <hr>
+    <h1>Listas</h1>
+    <h2>Lista ordenadas</h2>
+    <!-- Tipos para ol: 1 a A i -->
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar dentes</li>
+        <li>Ir para colégio</li>
+    </ol>
+
+    <h2>Lista não ordenadas</h2>
+    <!--Tipos para ul: disc circle square-->
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Manteiga</li>
+    </ul>
+
+    <hr>
+    <h1>Links</h1>
+    <h2>Links externos</h2>
+    <p>Você pode acessar o Google <a href="https://www.google.com">aqui</a></p>
+    <p>Você pode acessar o Google <a href="https://www.google.com" target="_blank" rel="external">aqui</a></p>
+
+    <h2>Links internos</h2>
+    <p>A outra pagina do site está <a href="pag.html" rel="next">aqui</a></p>
+    <p>Acesse a página de notícias <a href="./noticias/noticias.html" rel="prev">aqui</a></p>
+
+    <h2>Download</h2>
+    <p>Baixe o arquivo PDF <a href="arquivos/arquivo.pdf" target="_blank">aqui</a></p>
+    <p>Baixe o zip do arquivo PDF <a href="arquivos/arquivo.zip">aqui</a></p>
+</body>
+</html>
