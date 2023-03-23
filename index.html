@@ -106,5 +106,13 @@
     <h2>Download</h2>
     <p>Baixe o arquivo PDF <a href="arquivos/arquivo.pdf" target="_blank">aqui</a></p>
     <p>Baixe o zip do arquivo PDF <a href="arquivos/arquivo.zip">aqui</a></p>
+
+    <hr>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
 </body>
 </html>
