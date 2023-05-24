@@ -1,0 +1,44 @@
+/* fonts.google.com */
+/* dafont.com */
+/* Medidas absolutas:
+    Milimetros (mm), centimetros (cm), polegadas (in),
+    pixels (pi), pontos (pt) e paica (pc)
+
+    Medidas relativas:
+    em, ex, rem, vw, vh, %
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face {
+    font-family: 'varsity';
+    src: url("varsity_regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+    
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline; 
+}
+
+h1{
+    font-family: 'varsity';
+} */
+
+body{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 2em;
+}
