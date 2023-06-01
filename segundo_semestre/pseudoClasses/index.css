@@ -1,0 +1,23 @@
+div{
+    width: 5em;
+    height: 5em;
+    background-color: gray;
+    border:0.1em solid black;
+    margin: 1em;
+}
+
+div:hover{
+    background-color: yellow;
+}
+
+div:active{
+    color: blue;
+}
+
+div:hover>p{
+    color: red;
+}
+
+div>p{
+    color: white;
+}

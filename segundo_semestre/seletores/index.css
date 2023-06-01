@@ -1,0 +1,20 @@
+
+#principal{
+    color: green;
+}
+
+.secoes{
+    color:blue
+}
+
+.secaoHTML{
+    color: red;
+}
+
+.secaoCSS{
+    color: brown;
+}
+
+.destaque{
+    background-color: rgba(163, 163, 16, 0.595);
+}
