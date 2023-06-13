@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #1A281F;
+    font-family: 'Geologica', sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1{
+    color:#CE7B91;
+}
+
+.p1:hover{
+    color:#6564DB;
+}
+.p2:hover{
+    color:#23B5D3;
+}
+.p3:hover{
+    color:#758E4F;
+}
