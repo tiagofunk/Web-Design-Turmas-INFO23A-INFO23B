@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+}
+
+body>header,main,footer{
+    border-radius: .1em;
+    padding: 20px 20px;
+}
+
+header{
+    background-color: black;
+    color:white;
+    padding: .5em;
+}
+
+header>nav>a{
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+}
+
+header>nav>a:hover{
+    color: red;
+}
+
+main{
+    background-color: white;
+    padding:.5em;
+    margin-top: .5em;
+}
+
+section{
+    margin-top: 1em;
+    border-bottom: .1em solid gray;
+}
+
+footer{
+    text-align: center;
+    margin-top: .5em;
+    padding: .5em;
+    background-color: black;
+    color:white
+}
