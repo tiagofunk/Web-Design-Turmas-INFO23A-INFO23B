@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.397);
+    padding: 1em;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.listaHorizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.itemListaHorizontal{
+    width: 15em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1em solid gray;
+}
+
+.itemListaHorizontal:hover{
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.2s;
+}
+
+.imagemItemListaHorizontal{
+    width: 100%;
+}
+
+.caixas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caixaVertical{
+    width: 45%;
+    margin: 1em;
+}
+
+.itemCaixaVertical{
+    margin-bottom: 1em;
+}
+
+
+.itemCaixaVertical>h1{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.397), white);
+    border-bottom: 0.1em solid rgba(0, 128, 0, 0.315);
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(0, 128, 0, 0.397);
+    padding: 1em;
+}
