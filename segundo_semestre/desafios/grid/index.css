@@ -1,0 +1,40 @@
+/* 
+    Flex: uma dimensão (coluna ou linha)
+    Grid: Bidimensional
+    Uma complementa o outro
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas:    "header header" 
+                            "main aside"
+                            "footer footer";
+    /* gap: 20px; */
+}
+
+header{
+    background-color: yellow;
+    grid-area: header;
+}
+
+main{
+    background-color: blue;
+    grid-area: main;
+}
+
+aside{
+    background-color: green;
+    grid-area: aside;
+}
+
+footer{
+    background-color: red;
+    grid-area: footer;
+}

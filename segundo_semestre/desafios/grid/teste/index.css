@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #5b44a9;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    grid-template-rows: 5vh 20vh 20vh 20vh 20vh 5vh;
+    grid-template-areas:    ". . . . ."
+                            ". qgaz rv rv ."
+                            ". qgaz qgam qv1 ."
+                            ". qgv qgam qv2 ."
+                            ". qgv ra ra .";
+    align-content: end;
+}
+#d1{
+    grid-area: qgaz;
+}
+#d2{
+    grid-area: qgv;
+}
+#d3{
+    grid-area: rv;
+}
+#d4{
+    grid-area: qgam;
+}
+#d5{
+    grid-area: ra;
+}
+#d6{
+    grid-area: qv1;
+}
+#d7{
+    grid-area: qv2;
+}
+#d1, #d5{
+    background-color: #2196f3;
+}
+#d2, #d3, #d6, #d7{
+    background-color: #04d362;
+}
+#d4{
+    background-color: #f7e01d;
+}
+#container>div{
+    border-radius: 1em;
+    margin: 0.2em;
+}
