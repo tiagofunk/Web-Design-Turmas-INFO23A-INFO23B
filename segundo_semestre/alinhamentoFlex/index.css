@@ -1,0 +1,31 @@
+main{
+    height: 90vh;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around; */
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end;
+    align-items: stretch; */
+    gap: 2em;
+    row-gap: 2ems;
+    column-gap: 1em;
+}
+
+.dd{
+    width: 5em;
+    height: 5em;
+    background-color: gray;
+    margin: 0.5%;
+    border: .1em solid black;
+    text-align: center;
+}
