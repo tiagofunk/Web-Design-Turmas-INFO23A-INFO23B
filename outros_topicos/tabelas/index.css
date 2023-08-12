@@ -1,0 +1,27 @@
+table{
+    width: 30em;
+    /* height: 20em; */
+    /* border-collapse: separate; */
+    border-collapse: collapse;
+}
+caption{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+thead,tfoot{
+    background-color: gray;
+    color: white;
+}
+th,td{
+    border: .1em solid black;
+    text-align: center;
+    vertical-align: center;
+    padding: .2em;
+}
+td:nth-child(3){
+    text-align: right;
+}
+/* 2n, 2n-1, odd, even */
+tbody>tr:nth-child(even){
+    background-color: lightgray;
+}
