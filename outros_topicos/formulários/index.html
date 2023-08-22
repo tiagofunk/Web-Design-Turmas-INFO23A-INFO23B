@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <p>
+            <label for="idnome">Nome:</label>
+            <input type="text" name="nome" id="idnome" required placeholder="Nome do usuário" autocomplete="name">
+        </p>
+        <p>
+            <label for="idsenha">Senha:</label>
+            <input type="password" name="Senha" id="idsenha" required minlength="8" maxlength="15" placeholder="Minímo 8 caracteres" autocomplete="current-password">
+            <!-- new-password -->
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="Zero a Dez" step="0.1" required>
+        </p>
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="data" id="idata" value="2023-08-21" required>
+        </p>
+        <p>
+            <label for="ihora">Hora:</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" name="futebol" id="idfutebol">
+                <label for="idfutebol">Futebol</label>
+            </input>
+            <input type="checkbox" name="basquete" id="idbasquete">
+                <label for="idbasquete">Basquete</label>
+            </input>
+            <input type="checkbox" name="natacao" id="idnatacao">
+                <label for="idnatacao">Natação</label>
+            </input>
+            <input type="checkbox" name="tenis" id="idtenis">
+                <label for="idtenis">Tênis</label>
+            </input>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="idmasculino">
+                <label for="idmasculino">Masculino</label>
+            </input>
+            <input type="radio" name="sexo" id="idFeminino" checked>
+                <label for="idFeminino">Feminino</label>
+            </input>
+            <!-- Repate que ambas radios button tem o mesmo name, serve para quando marcar um, desmarcar o outro -->
+        </fieldset>
+        <p>
+            <label for="idcor">Cor:</label>
+            <input type="color" name="cor" id="idcor">
+        </p>
+        <p>
+            <label for="idnivel">Nível:</label>
+            <input type="range" name="nivel" id="idnivel" min="1" max="100">
+        </p>
+        <p>
+            <label for="idfoto">Foto:</label>
+            <input type="file" name="foto" id="idfoto">
+        </p>
+        <p>
+            <label for="idestado">Estado:</label>
+            <select name="estado" id="idestado">
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC" selected>Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ" >Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="idprofissao">Profissão:</label>
+            <input type="text" name="profissao" id="idprofissao" list="listaProfissoes">
+            <datalist id="listaProfissoes">
+                <option>Professor</option>
+                <option>Programador</option>
+                <option>Analista</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="idmensagem">Mensagem:</label>
+            <textarea name="mensagem" id="idmensagem" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
