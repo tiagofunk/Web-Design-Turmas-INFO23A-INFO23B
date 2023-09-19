@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    border-bottom: .1em solid black;
+}
+
+header>nav{
+    width: 100%;
+}
+
+header > nav > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+#menu{
+    width: 10%;
+}
+
+header > nav > ul > li{
+    margin: 0.2em;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    background-color: cornsilk;
+    padding: 0.2em;
+    border-radius: .5em .5em 0 0;
+    font-size: 120%;
+}
+
+@media screen and (max-width: 768px) {
+    header > nav > ul > li > a {
+        border-radius: 0;
+        width: 90%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+main{
+    width: 70%;
+    max-width: 50em;
+    margin: auto;
+    margin-top: 0.5em;
+    border: .1em solid black;
+    padding: 2em;
+}
+
+body{
+    @media screen and (orientation:portrait){
+        background-color: red;
+    }
+
+    @media screen and (orientation:landscape){
+            background-color: yellow;
+    }
+}
+
+.imagens{
+    display: none;
+}
+
+/* Typical device breakpoints */
+
+@media screen and (max-width:600px){
+    #phone{
+        display: block;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width: 768px){
+    #phone{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px){
+    #tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+    #pc{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #tv{
+        display: block;
+    }
+}
